@@ -1,4 +1,4 @@
 ﻿# OraclePLSQL
-Yaralı olabilecek pl-sql komutları.
--primary key
--sequence
+Yaralı olabilecek pl-sql komutları.\
+- Primary key\
+- Sequence
