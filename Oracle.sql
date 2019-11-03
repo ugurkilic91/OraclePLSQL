@@ -23,3 +23,7 @@ SELECT kolon_adi, COUNT(kolon_adi)
 FROM Tablo_adi
 GROUP BY kolon_adi
 HAVING COUNT(kolon_adi) > 1;
+
+-- Prosedür yada foksiyona gelen değer varsa koşula ekle yoksa, yoksay değişken adi "KATEGORI"
+select * from kategoriler i where 
+1 = (CASE WHEN KATEGORI = 0 THEN 1 WHEN KATEGORI !=0 AND i.KATEGORI_ID = KATEGORI THEN 1 END) and  bla bla :)
